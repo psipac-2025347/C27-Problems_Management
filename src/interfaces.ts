@@ -1,6 +1,6 @@
-type grado = "BAJO"|"MEDIO"|"ALTO";
+export type grado = "BAJO"|"MEDIO"|"ALTO";
 
-type estado = "ABIERTO"|"EN PROGRESO"|"RESUELTO";
+export type estado = "ABIERTO"|"EN PROGRESO"|"RESUELTO";
 
 export interface reporte{
     readonly id : number;
@@ -9,4 +9,5 @@ export interface reporte{
     persona: string;
     prioridad: grado;
     estado: estado;
+    fechaReporte: Date;
 }
