@@ -44,7 +44,7 @@ Fecha: ${inc.fechaReporte.toLocaleDateString()}
 export function actualizarEstado(id: number, nuevoEstado: estado): void {
     const incidente = incidentes.find(inc => inc.id === id);
     if (!incidente) {
-        console.log(`\nNo se encontró el incidente con ID ${id}.`);
+        console.log(`\nNo se encuentra el incidente con ID ${id}.`);
         return;
     }
     incidente.estado = nuevoEstado;
@@ -55,7 +55,7 @@ export function actualizarEstado(id: number, nuevoEstado: estado): void {
 export function buscarPorId(id: number): void {
     const incidente = incidentes.find(inc => inc.id === id);
     if (!incidente) {
-        console.log(`\nNo se encontró el incidente con ID ${id}.`);
+        console.log(`\nNo se encuentra el incidente con ID ${id}.`);
         return;
     }
     console.log(`

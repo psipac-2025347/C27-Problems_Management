@@ -27,10 +27,10 @@ export const incidentes: reporte[] = [
     },
     {
         id: 3,
-        titulo: "Software no responde",
-        descripcion: "El software de contabilidad se congela al abrirlo",
+        titulo: "Teclado defectuoso",
+        descripcion: "El teclado de la computadora 8 las flechas no funcionan",
         persona: "Carlos López",
-        prioridad: "ALTO",
+        prioridad: "BAJO",
         estado: "RESUELTO",
         fechaReporte: new Date()
     }
